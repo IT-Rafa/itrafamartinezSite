@@ -1,0 +1,163 @@
+TAREAS PÁGINA PERSONAL ITRAFAMARTINEZ.ES
+OBJETIVOS
+	IMPORTANTES
+		- Contenido atractivo para empresas
+		- Aparecer en google buscando: rafael martínez, itrafamartinez,
+		- Mostrar mis proyectos - Empezar con está misma página
+		- Mostrar los ejercicios de los cursos
+		- Definir test comprobación y si pueden ser automáticos
+		
+	SECUNDARIOS
+		- Adaptar a distintas tecnologias: página estática, PHP, .NET, nodeJS (SERVIDOR PROPIO) 
+		- Poder elegir entre varios diseños distintos. USAR BOOTSTRAP?
+		- Todos los diseños serán responsive (Definir navegadores objetivo)
+		
+ IDEAS
+	- Cursos con frame para poner cabeceras internas en los ejercicios  o usar contenedores.
+
+TAREAS
+-----------------------------
+
+- Preparar GIT
+		- Concretar uso git ( dibujar libretas y esquema ramas o algo así) - OK
+		- Hacer pruebas con git para un proyecto simple y ver como tenerlo controlado y poder clonarlo y tal
+		
+Ramas
+	- master: Inicio proyecto
+	- prodStatic: Página estática lista para producción - itrafa.personalweb.static_v1
+	- prodPHP: Página dinámica para PHP lista para producción - itrafa.personalweb.php_v1
+	- prodNode: Página dinámica para nodeJS lista para producción - itrafa.personalweb.nodejs_v1
+	- prodAspNet: Página dinámica para .net lista para producción - itrafa.personalweb.aspnet_v1
+	- devStatic: Página estática lista en desarrollo
+	- devPHP: Página dinámica para PHP en desarrollo
+	- devNode: Página dinámica para nodeJS en desarrollo
+	- devAspNet: Página dinámica para .net en desarrollo
+	- _Varias, según tareas en backlog
+
+	
+SECUENCIA GIT
+- Crear proyecto git
+- Crear ramas contenido, diseño, funcionalidad y produccion
+- Preparar en servidor y probar a clonar con otro equipo
+- Situarse en contenido y Añadir carpetas y archivos html
+- Añadir a funcionalidad cuando esté todo 
+- Juntar con diseño y situarse en diseño
+- Añadir css para movil, tablet y escritorio
+- Añadir a funcionalidad cuando esté todo 
+		
+-------------------------------------
+
+- Planear proyecto
+	- Poner toda documentación en carpeta proyecto
+	- Hacer documentación de la documentación ( Donde está cada cosa y para que vale )
+	- Usar AGILE.
+		0º Definir conceptos
+			- Definir Roles - Personas implicadas en el proyecto
+					- ProductOwner: Yo, que decide que incluir en la página 
+					- Desarrollador: Yo, que decide como implantar el proyecto, en base a
+					- El que va a mantener y actualizar la página
+					- Usuario: Quien verá la página ( posibles empleadores - RRHH, jefes, Desarrolladores, motores búsqueda, etc )
+					
+			- Definir TimeBox - Unidad de tiempo mínimo que lleva cualquier tarea. Si son demasiados, pensar en dividir la tarea. 1 h 
+			
+		1º Planear Product Backlog
+				Hacer historias usuario ( que quiere el cliente y para que )
+					-Formato: id + descripcion "Yo como (Rol) quiero que (Funcionalidad) para que (Objetivo)"  + Prioridad (Must, Should, Could, Would) +
+									 Criterio aceptación + estimación (TimeBox x veces necesarias)
+			- Organizar por Release (versión funcional) y dentro de estas por Sprints (Cosas que puedes hacer en una semana (o dos, o dias, o lo que sea)
+			- Convertir las historias de usuario en backlog items (tareas)
+		2º Planear Sprint
+			- Tiempo sprint
+			- tareas incluidas en sprint
+			
+			
+	Tareas especificas
+	Definir contenido
+		- Estructura páginas con descripción de que son
+		- Rellenar contenido home
+		- Rellenar contenido cursos
+		- Rellenar contenido proyectos
+		- diseño css movil compartido 
+		- Diseño css movil home
+		- Diseño css movil cursos
+		- Diseño css movil proyectos
+		- diseño css tablet compartido 
+		- Diseño css tablet home
+		- Diseño css tablet cursos
+		- Diseño css tablet proyectos
+		- diseño css escritorio compartido 
+		- Diseño css escritorio home
+		- Diseño css escritorio cursos
+		- Diseño css escritorio proyectos
+
+
+Estructura proyecto
+	- PAGINA ESTÁTICA
+		- HTML
+		- CSS
+			- Diseño y Responsive
+		- JS
+	- PAGINA DINÁMICA
+		- compartir cabecera a través de PHP include
+		- base datos para info proyectos y cursos
+		- CSS guapo para currículum (opción para varios formatos)
+	
+	- 
+
+SECUENCIA GIT 2
+	- home contenido
+	- home diseño 
+	
+CARACTERISTICAS DEL SITIO WEB
+	- MENU OCULTO ( Para dispositivos pequeños. Se muestra al pulsar menu burguer)
+
+ESTRUCTURA SITIO WEB
+ESTRUCTURA PAGINA PRINCIPAL - HOME
+	- hideMenu
+		- HOME
+	- header 
+		header menu
+		- MENU ( El contenido depende del dispositivo)
+			
+		- Logo
+		- 
+	- Poner redes sociales OK  - proyectos en github - enlaces a mis paginas - intereses que molen
+
+	
+TAREAS
+Release 1 - itrafa.personalweb.static.v1
+	- Preparar documentación, proyecto, servidor git y 
+	- Añadir contenido a la página de forma ordenada para 
+	- Sitio web estático con 1 diseño
+	- 
+
+
+
+- Fases en GIT?
+	1º Esqueleto proyecto y descripciones carpetas
+		- MVC + ROUTING
+			- index.php --> Entrada al sitio.
+			- Modelo -> Accesos base datos
+			- Vista -> Montar páginas y enviarlas al cliente
+			- Controlador -> lógica del sitio web
+								(gestiona pedidos del cliente, analiza, localiza datos con modelo y los envia a Vista)
+			- Routing: Según pedido del cliente, envia petición al controlador
+			- Public: Css, Images, Javascript, Otros??, ...
+	2º Vistas parciales y marco
+	- Estructuras páginas
+			- Anotar que cambia en cada página
+			- Contenido HTML (completo, después se sustituyen por datos en BD)
+			- Diseño y Responsive: archivos CSS
+					- Movil
+					- Tablet
+					- Escritorio
+	3º Organizar BD básico con datos (artículos, palabras clave, etc)
+
+		
+	- Montar PHP para montar plantillas
+	- Montar SQL con datos curriculum?
+
+
+
+
+- php para proyectos ??

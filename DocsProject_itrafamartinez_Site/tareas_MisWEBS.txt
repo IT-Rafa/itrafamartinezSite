@@ -1,0 +1,13 @@
+tareas MIS WEBS
+- Preparar proyecto para GIT y poner en servidor, acceder desde tablet y mv
+	- Comprobar proyectos en ordenador y relación con paginas locales y externas. y si hay proyecto git
+	- rehacer proyecto git de forma ordenada
+- Diseñar y montar página personal responsive
+	- Buscar páginas inspiración para parte conocimientos
+		* http://www.esandra.com/plantillas-curriculums-vitae-creativos
+		* http://aulacm.com/escribir-curriculum-vitae-cv/
+		* http://claudioinacio.com/2016/01/13/mejores-plantillas-curriculum-vitae/
+		* http://culturacolectiva.com/los-mejores-formatos-de-curriculum-para-conseguir-trabajo-en-2016/
+		* https://www.40defiebre.com/50-ejemplos-curriculums-originales/
+		
+- php para parte proyectos y cursos

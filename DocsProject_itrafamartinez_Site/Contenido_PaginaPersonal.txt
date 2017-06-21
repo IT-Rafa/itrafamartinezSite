@@ -1,0 +1,71 @@
+CONTENIDO PAGINA PERSONAL ITRAFAMARTINEZ
+
+ESTRUCTURA GENERAL
+
+HOME
+		|__ Cabecera ( include )
+							|__ Logo
+							|__ Menú
+							|__ Titulo
+							|__ Sobre_mi
+											|__ Foto
+											|__ Enlaces sociales y contacto
+											|__ sobre mí
+													|__ Título
+													|__ Frase
+		|__ Currículum
+							|__ Datos personales
+							|__ Formación académica
+										Títulos  y certificados
+							|__ Conocimientos y aptitudes
+										por temas (Sistemas Operativos, Redes, Desarrollo Web, Lenguajes)
+							|__ Experiencia laboral
+
+		|__ Proyectos
+						|__ Proyecto1
+									|__  Nombre proyecto
+									|__ Descripción proyecto
+									|__ Tecnologías usadas
+									|__ Logo proyecto
+									|__ Enlace GitHub
+									|__  Poder ver funcionamiento ??
+									
+		|__ Cursos
+						|__ Curso1
+									|__  Nombre Curso
+									|__ Descripción Curso
+									|__ Tecnologías Curso
+									|__ Logo Curso
+PROYECTO
+		|__ Cabecera ( include )
+							|__ Logo
+							|__ Menú
+							|__ Titulo
+							|__ Sobre_mi
+											|__ Foto
+											|__ Enlaces sociales
+											|__ Título: sobre mí
+											|__ Frase: sobre mí
+											
+		|__  Nombre proyecto
+		|__ Descripción proyecto
+		|__ Tecnologías usadas
+		|__ Logo proyecto
+		|__ Imágenes proyecto (o lo que sea)
+									
+CURSO
+		|__ Cabecera ( include )
+							|__ Logo
+							|__ Menú
+							|__ Titulo
+							|__ Sobre_mi
+											|__ Foto
+											|__ Enlaces sociales
+											|__ Título: sobre mí
+											|__ Frase: sobre mí
+		
+		|__  Nombre Curso
+		|__ Descripción Curso
+		|__ Tecnologías Curso
+		|__ Logo Curso
+		|__ Listado ejercicios
