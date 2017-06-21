@@ -1,0 +1,20 @@
+
+Vamos a carpeta solucion creada por visual studio
+configuramos .gitignore para que ignore los web.config (solo para asp.net, creo)
+hacemos commit de los archivos actuales 
+añadimos una carpeta con documentación del proyecto y varios archivos de texto
+hacemos commit con los archivos actuales
+
+preparamos servidor git
+creamos directorio contenedor proyecto git-servidor en /cygdrive/e/serv/git_s/itrafamartinezSite
+
+Pendiente conectar servidorGit con proyecto actual.
+
+	- añadir servidorgit como origin
+	
+		desde carpeta proyecto /proj/misPaginas/itrafamartinez
+		origin = /cygdrive/e/serv/git_s/itrafamartinezSite.git
+	 - push origin
+			da error upstream (no existe rama?)
+		no puede acceder 
+			no existe o error de permisos
