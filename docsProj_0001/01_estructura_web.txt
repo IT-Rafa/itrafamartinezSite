@@ -1,0 +1,45 @@
+Estructura itrafamartinez/index.html
+
+body
+   |_div id=full-page
+        |_header id=header-main
+	|      |
+	|      |_nav id=main-logo
+        |      |   |_a
+	|      |     |_img (Logo_It_rafa.svh)
+	|      |
+	|      |_nav id=atajos class=nav-clean
+	|          |_ul
+	|	     |_li
+	|		|_a (CURRICULUM)
+	|		|_a (PROJECTS)
+	|		|_a (CURSOS)
+	|
+	|_div id=content-main
+	|   |_header id=main-title class=section-title
+	|        |_h1 "Pagina Personal de:"
+        |	    |_span "Rafael Martinez"
+	|
+	|_section id=presentacion
+	|	|_nav id=navSocial-main class=nav-clean
+	|	   |_ul
+	|	     |_li id=correo
+	|	     |	|_a
+	|	     |    |_img [correo.svg]
+	|	     |
+	|	     |_li id=facebook
+	|	     |	|_a
+	|	     |	  |_img [facebook.svg]
+	|	     |
+	|	     |_li id=googleplus
+	|	     |	|_a
+	|	     |	  |_img [googleplus.svg]
+	|	     |
+	|	     |_li id=linkedin
+	|	     |	|_a
+	|	     |	  |_img [linkedin.svg]
+	|	     |
+	|	     |_li id=github
+	|	     |	|_a
+	|	     |	  |_img [github.svg]
+	

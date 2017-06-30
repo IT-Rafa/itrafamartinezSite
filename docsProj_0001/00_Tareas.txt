@@ -1,0 +1,2 @@
+- Hacer plano estructura red
+- Organizar CSS
