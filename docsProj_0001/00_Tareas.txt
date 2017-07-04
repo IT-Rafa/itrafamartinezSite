@@ -1,2 +1,3 @@
 - Hacer plano estructura red
 - Organizar CSS
+- Acceso ssh con tablet
