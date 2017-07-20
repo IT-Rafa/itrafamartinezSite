@@ -13,7 +13,7 @@
   <!-- ESTILOS Y META VIEWPORT -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Averia+Libre|Dancing+Script|Arimo" rel="stylesheet">
-  <link href="/Styles/styles.css" rel="stylesheet" />
+  <link href="resources/CSS/Style1.css" rel="stylesheet" />
   <!-- JAVASCRIPT -->
 </head>
 <body>
@@ -81,14 +81,16 @@
         <article id="message">
           <img src="resources/images/FotoCurriculum250x250_transp.png" title="Foto Rafael Martinez"
                width="150" height="150" alt="Foto Rafael Martinez" />
-          <h1>Sobre mí</h1>
+          <header class="section-title">
+            <h1>Sobre mí</h1>
+          </header>
           <p>Todo-terreno de la tecnología. Desde desarrollo y diseño (web y aplicaciones) pasando por la administración de sistemas o el montaje de redes.</p>
         </article>
       </section>
       <!-------------------------------------  CURRICULUM  ---------------------------------------->
       <section id="curriculum">
-        <header>
-          <h1 id="title-curriculum" class="title-section">Currículum</h1>
+        <header class="section-title">
+          <h1>Currículum</h1>
           <a href="Resources/downloadFiles/curriculum_RafaelMartinez.pdf">
             <img src="resources/images/pdfDownload.svg" title="Descargar curriculum PDF"
                  width='55' height='55' alt="Descargar curriculum PDF" />
@@ -96,7 +98,7 @@
         </header>
         <article>
           <header>
-            <h2>Datos Personales</h2>
+            <h1>Datos Personales</h1>
           </header>
           <dl>
             <dt>Nombre: </dt>
@@ -121,7 +123,7 @@
         </article>
         <article>
           <header>
-            <h2>Formación académica</h2>
+            <h1>Formación académica</h1>
           </header>
           <ul>
             <li>B.U.P</li>
@@ -130,7 +132,7 @@
           </ul>
         </article>
         <article>
-          <h2>Conocimientos y aptitudes</h2>
+          <h1>Conocimientos y aptitudes</h1>
           <dl>
             <dt>Sistemas</dt>
             <dd>Windows, Windows Server, Linux (Ubuntu, Open-Suse, ArchLinux,...)</dd>
@@ -154,7 +156,7 @@
         </article>
         <article>
           <header>
-            <h2>Experiencia laboral</h2>
+            <h1>Experiencia laboral</h1>
           </header>
           <dl>
             <dt>Un Blog de Programación, Administración de Sistemas y Networking</dt>
@@ -184,7 +186,9 @@
       </section>
       <!-------------------------------  PROJECTS GROUP ----------------------------------------------->
       <section id="projects-group" class="nav-clean">
-        <h1>Proyectos</h1>
+        <header class="section-title">
+          <h1>Proyectos</h1>
+        </header>
         <ul>
           <li>
             <a href="#">
@@ -249,9 +253,11 @@
         </ul>
 
       </section>
-      -----------------------------  COURSES-GROUP  ----------------------------------------------------------------------
+      <!------------------------  COURSES-GROUP  ---------------------------------------------->
       <section id="courses-group" class="nav-clean">
-        <h1>Cursos</h1>
+        <header class="section-title">
+          <h1>Cursos</h1>
+        </header>
         <ul>
           <li>
             <a href="Resources/cursos/Miriadax/DesWeb1_Ed7/desweb1_ed7.html">
@@ -271,7 +277,6 @@
                 <h1> Microsoft: DEV203x Introduction to Bootstrap </h1>
                 <p>Learn how to use Bootstrap to implement mobile first web pages with CSS and JavaScript.</p>
                 <img src="resources/images/Logo_curso_Edx_Intro_Bootstrap.svg" width='250' height='200' alt="Curso Introducción a Bootstrap" />
-                <img src="" />
               </article>
             </a>
           </li>
@@ -333,6 +338,7 @@
           </li>
         </ul>
       </nav>
+
       <nav id="main-logo-footer">
         <p>Página creada por:</p>
         <a href="#">

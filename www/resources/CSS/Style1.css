@@ -1,0 +1,129 @@
+﻿/* ORGANIZACIÓN PÁGINA
+
+FUENTES USADAS:
+	Averia Libre: Tipo Serif - Títulos
+	Dancing Script: Tipo Script- para el nombre
+	Arimo: Tipo Sans Serif - Texto general
+
+body_TAG
+	full-page_ID div_TAG
+		header-main_ID header_TAG
+			main-logo_ID nav_TAG
+				a_TAG
+					img_TAG
+			atajos_ID nav-clean_CLASS nav_TAG
+				ul_TAG
+					li_TAG
+
+		content-main_ID div_TAG
+			main-title_ID section-title_CLASS header_TAG
+				h1_TAG
+					span_TAG
+			presentation_ID section_TAG
+				navSocial-main_ID nav-clean_CLASS nav_TAG
+					ul_TAG
+						correo_id li_TAG
+							a_TAG
+								img_TAG
+						facebook_id li_TAG
+							a_TAG
+								img_TAG
+						googleplus_id li_TAG
+							a_TAG
+								img_TAG
+						linkedin_id li_TAG
+							a_TAG
+								img_TAG
+						github_id li_TAG
+							a_TAG
+								img_TAG
+				message_ID article_TAG
+					img_TAG
+					section-title_CLASS header_TAG 
+						h1_TAG
+					p_TAG
+			
+			curriculum_ID section_TAG
+				header_TAG section-title_CLASS
+					title-curriculum_ID  h1_TAG
+					a_TAG
+						img_TAG
+				article_TAG (DATOS PERSONALES)
+					header_TAG
+						h1_TAG
+					dl_TAG
+						dt_TAG
+						dd_TAG
+					dl_TAG
+						...
+					dl_TAG
+							...
+				article_TAG (Formación académica, Conocimientos y aptitudes, Experiencia laboral)
+					...
+	
+			projects-group_ID nav-clean_CLASS section_TAG
+				header_TAG  section-title_CLASS
+					h1_TAG
+				ul_TAG
+					li_TAG
+						a_TAG
+							project_CLASS article_TAG
+								h1_TAG
+								p_TAG
+								img_TAG
+					li_TAG
+						a_TAG......
+			
+			courses-group_ID nav-clean_CLASS section_TAG
+				header_TAG  section-title_CLASS
+					h1_TAG
+				ul_TAG
+					li_TAG
+						a_TAG
+							course_CLASS article_TAG
+								h1_TAG
+								p_TAG
+								img_TAG
+					li_TAG
+						a_TAG......
+		Fin content-main_ID
+
+		footerMain_ID footer_TAG
+			navSocial-footer_ID nav-clean_CLASS nav_TAG
+				ul_TAG
+					li_TAG
+						a_TAG
+							img_TAG
+			main-logo-footer_ID nav_TAG
+				p_TAG
+				a_TAG
+					img_TAG
+*/
+
+body {
+	background-color:ghostwhite;
+	font-size: 15px;
+	font-family: 'Arimo',sans-serif;
+	margin: 0;
+	overflow-x: hidden
+}
+
+.nav-clean ul {
+	list-style-type: none
+}
+.nav-clean a {
+	text-decoration: none
+}
+
+.section-title{
+	background-color:blue;
+	color:white;
+	text-align: center;
+}
+
+	.section-title h1 {
+		font-family: 'Averia Libre',cursive;
+		font-size:2rem;
+		letter-spacing: .5rem;
+		padding: 5px;
+	}
